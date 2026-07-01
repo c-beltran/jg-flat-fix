@@ -3,15 +3,58 @@
 
 <head>
     <meta charset="utf-8">
-    <title>JG Flat Fix - Tireshop</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="robots" content="index, follow">
-	<meta name="description"content="We sell new and used tires at affordable prices. Great inventory to choose from so you can to mount and balance the same day. We are your friendly neighborhood tire shop call us today!">
-	<meta name="keywords" content="flat tire, mount and balance, tire repair, tire shop, mount and balance, discount tire, good year, car tires, truck tires">
+    <title>JS Tire Shop Fixed Flat | New & Used Tires in Hempstead, NY</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="JS Tire Shop Fixed Flat in Hempstead, NY offers new and used tires, flat tire repair, rim repair, and mount and balance services. Open 7 days a week, 7AM–9PM including holidays. Call (516) 499-4659.">
+	<meta name="keywords" content="JS Tire Shop Fixed Flat, tire shop Hempstead NY, flat tire repair, new tires, used tires, mount and balance, rim repair, tire shop near me, Hempstead tire shop, tire shop Long Island">
+    <link rel="canonical" href="https://jstireshop.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="JS Tire Shop Fixed Flat | New & Used Tires in Hempstead, NY">
+    <meta property="og:description" content="JS Tire Shop Fixed Flat in Hempstead, NY offers new and used tires, flat tire repair, rim repair, and mount and balance services. Open 7 days a week, 7AM–9PM including holidays. Call (516) 499-4659.">
+    <meta property="og:image" content="https://jstireshop.com/img/tire-shop.JPG">
+    <meta property="og:url" content="https://jstireshop.com/">
+    <meta property="og:site_name" content="JS Tire Shop Fixed Flat">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "JS Tire Shop Fixed Flat",
+      "image": "https://jstireshop.com/img/tire-shop.JPG",
+      "url": "https://jstireshop.com",
+      "telephone": "(516) 499-4659",
+      "email": "jstireshopfixedflat@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "33 Newmans Ct",
+        "addressLocality": "Hempstead",
+        "addressRegion": "NY",
+        "postalCode": "11550",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7042379,
+        "longitude": -73.6281205
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "07:00",
+          "closes": "21:00"
+        }
+      ],
+      "hasMap": "https://www.google.com/maps/place/JS+TIRE+SHOP+FIXED+FLAT/data=!4m2!3m1!1s0x0:0x5dd6259e7490655b",
+      "sameAs": [
+        "https://www.facebook.com/p/Js-tire-shop-61575056377311/"
+      ],
+      "priceRange": "$$"
+    }
+    </script>
 
     <!-- Favicon -->
-    <link href="img/JG-FLAT-FIX.ico" rel="icon">
+    <link href="img/JS-FLAT-FIX.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,15 +70,6 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-    <!-- Video support -->
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-    <!-- jQuery and JS bundle w/ Popper.js -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -43,8 +77,59 @@
     <link href="css/style.css" rel="stylesheet">
 
     <style>
+        html, body {
+            overflow-x: hidden;
+            max-width: 100%;
+        }
         .embed-responsive-item {
             background-color: black;
+        }
+        #header-carousel .carousel-item {
+            background-color: #111;
+        }
+        #header-carousel .carousel-item img {
+            height: 70vh;
+            min-height: 420px;
+            width: 100%;
+            object-fit: cover;
+        }
+        /* Mobile: shrink carousel and text so CTA is above the fold */
+        @media (max-width: 768px) {
+            #header-carousel .carousel-item {
+                min-height: unset;
+            }
+            #header-carousel .carousel-item img {
+                position: relative !important;
+                height: 52vw;
+                min-height: 220px;
+                max-height: 360px;
+            }
+            .carousel-caption h2.display-3 {
+                font-size: 1.35rem !important;
+                margin-bottom: 0.5rem !important;
+                padding-bottom: 0 !important;
+            }
+            .carousel-caption .btn {
+                font-size: 0.75rem;
+                padding: 0.4rem 0.9rem !important;
+            }
+        }
+        /* Navbar brand: smaller on mobile */
+        @media (max-width: 991.98px) {
+            .navbar-brand h2 {
+                font-size: 1.05rem;
+            }
+            .navbar-brand img {
+                width: 30px !important;
+                height: 30px !important;
+            }
+            /* Offset content so sticky call bar doesn't cover it */
+            body {
+                padding-bottom: 64px;
+            }
+            .back-to-top {
+                bottom: 72px;
+            }
         }
     </style>
 </head>
@@ -65,20 +150,20 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small><a href="https://www.google.com/maps/place/JG+FLAT+FIX+TIRE+SHOP/@40.7060611,-73.6274282,15z/data=!4m2!3m1!1s0x0:0xc0b4b66c0e8f631c?sa=X&ved=2ahUKEwjE8oqY4vOCAxWIq4kEHZEJAeUQ_BJ6BAhNEAA">55 HIGH ST, HEMPSTEAD, NY 11550</a></small>
+                    <small><a href="https://www.google.com/maps/place/JS+TIRE+SHOP+FIXED+FLAT/data=!4m2!3m1!1s0x0:0x5dd6259e7490655b?sa=X&ved=1t:2428&ictx=111">33 Newmans Ct, Hempstead, NY 11550</a></small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2"></small>
-                    <small><a href="https://www.google.com/search?sca_esv=587494963&sxsrf=AM9HkKkXSOskdiJ44RoMVqZdwkQtQwwKqQ:1701623777995&q=JG+FLAT+FIX+TIRE+SHOP&ludocid=13885924126307083036&lsig=AB86z5Vzlm8SAwBLmvfcMlEak5mM&sa=X&ved=2ahUKEwiTmNDG4vOCAxWxrokEHWD3BFEQoAJ6BAgVEAc&biw=1280&bih=690&dpr=1">OPEN 7 DAYS &nbsp; 7AM - 9PM</a></small>
+                    <small><a href="https://www.google.com/maps/place/JS+TIRE+SHOP+FIXED+FLAT/data=!4m2!3m1!1s0x0:0x5dd6259e7490655b?sa=X&ved=1t:2428&ictx=111">OPEN 7 DAYS &nbsp; 7AM - 9PM</a></small>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small><b><a href="tel:(646) 775-7311">(646) 775-7311</a></b></small>
+                    <small><b><a href="tel:(516) 499-4659">(516) 499-4659</a></b></small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/p/JG-FLAT-FIX-Tire-shop-100042244075876/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/p/Js-tire-shop-61575056377311/"><i class="fab fa-facebook-f"></i></a>
                     <!-- <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a> -->
                     <!-- <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
                     <!-- <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a> -->
@@ -92,7 +177,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary"><img width="50" height="50" src="https://img.icons8.com/3d-fluency/94/wheel.png" alt="wheel"/> JG Flat Fix</h2>
+            <h2 class="m-0 text-primary"><img width="50" height="50" src="https://img.icons8.com/3d-fluency/94/wheel.png" alt="wheel"/> JS Tire Shop Fixed Flat</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -103,45 +188,45 @@
                 <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="tel:(646) 775-7311" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">CALL NOW<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="tel:(516) 499-4659" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">CALL NOW<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
 
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="container-fluid p-0 mb-0 mb-md-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-wrap="true">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/tire_rack.jpg" alt="Image">
+                    <img class="w-100" src="img/tire_rack.jpg" alt="tire rack display at JS Tire Shop Fixed Flat Hempstead NY">
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
                                     <!-- <h6 class="text-white text-uppercase mb-3 animated slideInDown">// Tires you can trust //</h6> -->
-                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">We carry <span style="color: rgba(235, 235, 76, 0.856);">all brands</span> for all type of vehicles</h1>
-                                    <a href="tel:(646) 775-7311" class="btn btn-primary py-3 px-5 animated slideInDown">HABLAMOS ESPAÑOL <b>(646) 775-7311</b></a>
+                                    <h2 class="display-3 text-white mb-4 pb-3 animated slideInDown">We carry <span style="color: rgba(235, 235, 76, 0.856);">all brands</span> for all type of vehicles</h2>
+                                    <a href="tel:(516) 499-4659" class="btn btn-primary py-3 px-5 animated slideInDown">HABLAMOS ESPAÑOL <b>(516) 499-4659</b></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
-                                    <img class="img-fluid" src="img/tire-brands-all-types.png" alt="">
+                                    <img class="img-fluid" src="img/tire-brands-all-types.png" alt="all tire brands for cars trucks and SUVs">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/tire-shop.JPG" alt="JG tire shop hempstead">
+                    <img class="w-100" src="img/tire-shop.JPG" alt="JS Tire Shop Fixed Flat exterior in Hempstead NY">
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
                                     <!-- <h6 class="text-white text-uppercase mb-3 animated slideInDown">// Car Servicing //</h6> -->
-                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown"><span style="color: rgba(235, 235, 76, 0.856);">Fast & realiable service!</span> To get you back on the road</h1>
-                                    <a href="tel:(646) 775-7311" class="btn btn-primary py-3 px-5 animated slideInDown">HABLAMOS ESPAÑOL <b>(646) 775-7311</b></a>
+                                    <h2 class="display-3 text-white mb-4 pb-3 animated slideInDown"><span style="color: rgba(235, 235, 76, 0.856);">Fast & realiable service!</span> To get you back on the road</h2>
+                                    <a href="tel:(516) 499-4659" class="btn btn-primary py-3 px-5 animated slideInDown">HABLAMOS ESPAÑOL <b>(516) 499-4659</b></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
-                                    <img class="img-fluid" src="img/new-tire-car.png" alt="">
+                                    <img class="img-fluid" src="img/new-tire-car.png" alt="new tire installation on vehicle">
                                 </div>
                             </div>
                         </div>
@@ -162,58 +247,45 @@
     </div>
     <!-- Carousel End -->
 
-    <section>
+    <!-- Pricing / Hours Section -->
+    <section class="pt-2 pb-3 pt-md-4 pb-md-4 bg-light">
         <div class="container">
-            <div class="row">
-                    <div class="col-md-12 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="bg-light">
-                            <div class="text-center">
-                                <h1>Open 7 Days a Week</h1>
-                                <h3 class="text-primary">7 AM - 9 PM</h3>
-                                <h3 class="text-primary">Weekends & Holidays</h3>
-                            </div>
-                        </div>
+            <div class="row g-2 text-center">
+                <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white rounded p-2 p-md-4 h-100 shadow-sm">
+                        <i class="fa fa-clock text-primary mb-1 mb-md-3" style="font-size:1.4rem;"></i>
+                        <h6 class="fw-bold mb-1 lh-sm">Open 7 Days</h6>
+                        <p class="text-primary fw-bold mb-0 small">7 AM – 9 PM</p>
+                        <p class="text-muted mb-0 small d-none d-md-block">Weekends &amp; All Holidays</p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-12 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="bg-light">
-                            <div class="text-center">
-                                <h1>Used Tires Starting at <span class="text-primary">$35</span> and UP!</h1>
-                                <h5>Depending on size, condition & brand.</h5>
-                            </div>
-                        </div>
+                <div class="col-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-white rounded p-2 p-md-4 h-100 shadow-sm">
+                        <i class="fa fa-dollar-sign text-primary mb-1 mb-md-3" style="font-size:1.4rem;"></i>
+                        <h6 class="fw-bold mb-1 lh-sm">Used Tires</h6>
+                        <p class="text-primary fw-bold mb-0 small">From $35 UP</p>
+                        <p class="text-muted mb-0 small d-none d-md-block">By size, condition &amp; brand</p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-12 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="bg-light">
-                            <div class="text-center">
-                                <h1>Mount a Tire</h1>
-                                <h3>Starting <span class="text-primary">$15</span> and UP</h3>
-                                <h1>Balancing a Tire</h1>
-                                <h3>Starting <span class="text-primary">$15</span> and UP</h3>
-                                <h5>Depending on rim and tire size</h5>
-                            </div>
-                        </div>
+                <div class="col-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white rounded p-2 p-md-4 h-100 shadow-sm">
+                        <i class="fa fa-wrench text-primary mb-1 mb-md-3" style="font-size:1.4rem;"></i>
+                        <h6 class="fw-bold mb-1 lh-sm">Mount &amp; Balance</h6>
+                        <p class="text-primary fw-bold mb-0 small">From $15 UP</p>
+                        <p class="text-muted mb-0 small d-none d-md-block">Per tire, by rim &amp; size</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Pricing / Hours Section End -->
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-3 py-md-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="d-flex py-5 px-4">
+                    <div class="d-flex py-3 py-md-5 px-4">
                         <i class="fa fa-truck-monster fa-3x text-primary flex-shrink-0"></i>
                         <div class="ps-4">
                             <h5 class="mb-3">Mount and Balance Tires</h5>
@@ -222,7 +294,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="d-flex bg-light py-5 px-4">
+                    <div class="d-flex bg-light py-3 py-md-5 px-4">
                         <div><img class="fa fa-3x text-primary flex-shrink-0" src="img/tire-pressure.png" style="object-fit: cover; width: 60px;" alt=""></div>
                         <div class="ps-4">
                             <h5 class="mb-3">Flat Tire Fix</h5>
@@ -231,7 +303,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="d-flex py-5 px-4">
+                    <div class="d-flex py-3 py-md-5 px-4">
                         <i class="fa fa-tools fa-3x text-primary flex-shrink-0"></i>
                         <div class="ps-4">
                             <h5 class="mb-3">Rim Repair & Powder Coating</h5>
@@ -251,17 +323,17 @@
             <div class="row g-5">
                 <div class="col-lg-6 pt-4" style="min-height: 400px;">
                     <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/jg-flat-fix-tire-shop-contact.jpg" style="object-fit: cover;" alt="">
-                        <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .08);">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/jg-flat-fix-tire-shop-contact.webp" style="object-fit: cover;" alt="JS Tire Shop Fixed Flat in Hempstead NY">
+                        <div class="position-absolute top-0 end-0 py-4 px-4" style="background: rgba(0, 0, 0, .08);">
                             <h1 class="display-4 text-white mb-0">10+ <span class="fs-4">Years</span></h1>
                             <h4 class="text-white">Of Experience</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="mb-4"><span class="text-primary">JG Flat Fix</span> Is Your #1 Place For When Your Car Needs New Shoes</h1>
+                    <h1 class="mb-4"><span class="text-primary">JS Tire Shop Fixed Flat</span> Is Your #1 Place For When Your Car Needs New Shoes</h1>
                     <p class="mb-4">This is a local family owned tireshop delivering professional services you can trust. Come visit us, we are located in the heart of Hempstead. </p>
-                    <h1 class="mb-4 text-primary">Accepted Forms of Payment:</h1>
+                    <h2 class="mb-4 text-primary">Accepted Forms of Payment:</h2>
                     <div class="row g-4 mb-3 pb-3">
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex">
@@ -342,7 +414,7 @@
     <div class="container-xxl service py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="mb-5">Explore Our Services</h1>
+                <h2 class="mb-5">Explore Our Services</h2>
             </div>
             <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-lg-4">
@@ -368,7 +440,7 @@
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/flat_fix.jpg"
-                                            style="object-fit: cover;" alt="">
+                                            style="object-fit: cover;" alt="flat tire repair service">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -386,7 +458,7 @@
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/tire_balancing.jpg"
-                                            style="object-fit: cover;" alt="">
+                                            style="object-fit: cover;" alt="tire mount and balance service">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -404,7 +476,7 @@
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/car_rims.jpg"
-                                            style="object-fit: cover;" alt="">
+                                            style="object-fit: cover;" alt="rim repair and restoration service">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -422,7 +494,7 @@
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/custom_work.jpg"
-                                            style="object-fit: cover;" alt="">
+                                            style="object-fit: cover;" alt="custom tire and rim services">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -446,39 +518,39 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-21by9 wow fadeInUp">
-                    <video class="embed-responsive-item" controls autoplay loop muted>
-                          <source src="assets/jg-flat-fix-video.MP4" type="video/mp4">
-                          Your browser does not support the video tag.
+                <div id="trailer" class="ratio ratio-16x9 wow fadeInUp">
+                    <video style="object-fit: contain; background: #000;" controls autoplay loop muted>
+                        <source src="assets/js-flat-fix-video.MP4" type="video/mp4">
+                        Your browser does not support the video tag.
                     </video>
-                  </div>
+                </div>
             </div>
             <div class="row g-4" style="margin-top: 50px;">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/truck-tires-of-all-kind.JPG" alt="">
+                            <img class="img-fluid" src="img/truck-tires-of-all-kind.webp" alt="truck tires of all kinds at JS Tire Shop">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="overflow-hidden" style="padding-top: 65px;">
-                            <img class="img-fluid" src="img/used-tires-selection.JPG" alt="">
+                            <img class="img-fluid" src="img/used-tires-selection.webp" alt="used tires selection Hempstead NY">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden" style="padding-top: 65px;">
-                            <img class="img-fluid" src="img/jg-flat-fix-shop.JPG" alt="">
+                            <img class="img-fluid" src="img/jg-flat-fix-shop.webp" alt="JS Tire Shop Fixed Flat storefront Hempstead NY">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden" style="padding-top: 65px;">
-                            <img class="img-fluid" src="img/jg-flat-fix-cards.JPG" alt="repair shop">
+                            <img class="img-fluid" src="img/jg-flat-fix-cards.webp" alt="JS Tire Shop Fixed Flat service options and pricing">
                         </div>
                     </div>
                 </div>
@@ -499,37 +571,37 @@
                 <div class="testimonial-item text-center">
                     ⭐ ⭐ ⭐ ⭐ ⭐
                     <br><br>
-                    <h5 class="mb-0">Cassandra O</h5>
-                    <p><a href="https://g.co/kgs/HtQqAW">Google</a></p>
+                    <h5 class="mb-0">Edward Victor</h5>
+                    <p><a href="https://maps.app.goo.gl/SwQzqGoXRxavHR5E9">Google</a></p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Very polite and helpful. Great customer service (Traducido por <a href="">Google</a>) Muy educado y servicial. Gran servicio al cliente.</p>
+                    <p class="mb-0">Jose, is a family business man that opened a Tire Shop to help the community. He is very honest and fair in his prices. He does great and fast. JS Tire Shop is the cheapest in this neighborhood and his employees are very welcoming and friendly.</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     ⭐ ⭐ ⭐ ⭐ ⭐
                     <br><br>
-                    <h5 class="mb-0">Jonathan M</h5>
-                    <p><a href="https://g.co/kgs/h8hoFZ">Google</a></p>
+                    <h5 class="mb-0">Carlos Castillo</h5>
+                    <p><a href="https://maps.app.goo.gl/zj2NnrZVKpqSxHHX9">Google</a></p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">My front 2 tires were in bad shape. Came to this spot after work and was not disappointed. The gentleman gave me 2 slightly used tires at a great price. They were quick and very friendly. I recommend to anyone looking for great service and decent pricing.</p>
+                    <p class="mb-0">It's the best service; they treat you like family, the prices are reasonable and affordable, the tires are good quality, but best of all, and I want to emphasize this, is the customer service. Definitely, if I need to buy tires, this is the store.</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     ⭐ ⭐ ⭐ ⭐ ⭐
                     <br><br>
-                    <h5 class="mb-0">Mario C</h5>
-                    <p><a href="https://g.co/kgs/kL7LVC">Google</a></p>
+                    <h5 class="mb-0">Julian Cardozo</h5>
+                    <p><a href="https://maps.app.goo.gl/QV3ffXz3PiczC8Aa6">Google</a></p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Excellent service. Jose is outstanding. Needed some work done for my car and he recommended me to a spot he deals with. Even looked at my problem for my car while changing out a tire for me. Quick and good quality.</p>
+                    <p class="mb-0">Excelente servicio. Llevé mi carro Tesla a este montallantas y la atención fue de primera. El dueño/manager que me atendió fue muy amable, cordial y profesional. Además de hacer un excelente trabajo, me aconsejó sobre detalles específicos importantes para mi vehículo, lo cual demuestra conocimiento y honestidad.</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     ⭐ ⭐ ⭐ ⭐ ⭐
                     <br><br>
-                    <h5 class="mb-0">Aquilino C</h5>
-                    <p><a href="https://g.co/kgs/Yf8ULH">Google</a></p>
+                    <h5 class="mb-0">Yonis Guerrero</h5>
+                    <p><a href="https://maps.app.goo.gl/ygw9eEHuq3iPYzdK8">Google</a></p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Friendly and professional service. I have been going to this shop for some years now and they are always courteous and get the job done!</p>
+                    <p class="mb-0">The best tire shop in the area. Good price, good quality on used tires, workers know what they are doing. 100% recommend.</p>
                     </div>
                 </div>
             </div>
@@ -544,12 +616,12 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>55 HIGH ST, HEMPSTEAD, NY 11550</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(646) 775-7311</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>jgflatfix@gmail.com</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a href="https://www.google.com/maps/place/JS+TIRE+SHOP+FIXED+FLAT/data=!4m2!3m1!1s0x0:0x5dd6259e7490655b?sa=X&ved=1t:2428&ictx=111" style="color: aliceblue; text-decoration: underline;">33 Newmans Ct, Hempstead, NY 11550</a></p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:(516) 499-4659" style="color: aliceblue;">(516) 499-4659</a></p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>jstireshopfixedflat@gmail.com</p>
                     <h6 class="text-light">FOLLOW US ON SOCIAL MEDIA</h6>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/p/JG-FLAT-FIX-Tire-shop-100042244075876/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/p/Js-tire-shop-61575056377311/"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -563,12 +635,12 @@
                     <h4 class="text-light mb-4">Sale of new & used tires</h4>
                     <p class="text-light">Flat tire repair</p>
                     <p class="text-light">Rim repair & restoration</p>
-                    <p class="text-light">Maunt and balancing</p>
+                    <p class="text-light">Mount and balancing</p>
                     <p class="text-light">*We don't warranty used tires*</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">COME AND VISIT US!</h4>
-                    <p>Visit us or call us to find out our prices and availability. we are here to assit you in anyway possible!</p>
+                    <p>Visit us or call us to find out our prices and availability. We are here to assist you in any way possible!</p>
                 </div>
             </div>
         </div>
@@ -576,7 +648,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">JG FLAT FIX</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#">JS TIRE SHOP FIXED FLAT</a>, All Rights Reserved.
 
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                         Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
@@ -608,6 +680,13 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Mobile Sticky Call Bar (hidden on desktop) -->
+    <a href="tel:(516) 499-4659"
+       class="d-lg-none position-fixed bottom-0 start-0 end-0 text-white text-center text-decoration-none fw-bold py-3"
+       style="background-color: var(--primary, #D81324); z-index: 1040; font-size: 1.05rem; letter-spacing: 0.5px;">
+        <i class="fa fa-phone-alt me-2"></i>(516) 499-4659 &nbsp;·&nbsp; TAP TO CALL
+    </a>
 </body>
 
 </html>
